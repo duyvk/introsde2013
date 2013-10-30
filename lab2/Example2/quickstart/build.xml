@@ -20,14 +20,8 @@
 <project name="quickstart" basedir="." default="generate.service">
 
     <property environment="env"/>
-<<<<<<< HEAD
     <property name="AXIS2_HOME" value="/opt/axis2-1.6.2/axis2-1.6.2"/>
     <property name="AXIS2_HOME_TOMCAT" value="/opt/apache-tomcat-7.0.35/webapps/axis2"/>
-=======
-    <!-- Remember, update the following to fit your filesystem --> 
-    <property name="AXIS2_HOME" value="/opt/axis2-1.6.2"/>
-    <property name="AXIS2_HOME_TOMCAT" value="/opt/apache-tomcat-7.0.39/webapps/axis2"/>
->>>>>>> upstream/master
 
     <property name="build.dir" value="build"/>
 
